@@ -1,0 +1,46 @@
+{
+  "title": "My Video Project",
+  "subtitle": "Created with AutoReel",
+  "title_duration": 3.5,
+  "end_card_text": "Thank you for watching",
+  "bg_color": "#0d0d1a",
+  "accent_color": "#3ecfff",
+  "resolution": [1280, 720],
+  "fps": 24,
+  "audio": "background_music.mp3",
+  "clips": [
+    {
+      "type": "video",
+      "src": "clip1.mp4",
+      "start": 0,
+      "end": 10,
+      "caption": "Opening scene"
+    },
+    {
+      "type": "title",
+      "text": "Chapter 1",
+      "subtitle": "The Beginning",
+      "duration": 3.0,
+      "bg_color": "#0f0f23",
+      "accent_color": "#ff6b6b"
+    },
+    {
+      "type": "video",
+      "src": "clip2.mp4",
+      "start": 5,
+      "end": 20,
+      "caption": "Main content"
+    },
+    {
+      "type": "color",
+      "color": "#1a1a2e",
+      "duration": 2.0,
+      "caption": "Transition segment"
+    },
+    {
+      "type": "video",
+      "src": "clip3.mp4",
+      "caption": "Closing scene"
+    }
+  ]
+}
